@@ -2,9 +2,7 @@
 
 A simple, modern and responsive **To-Do List Web Application** built using **HTML, CSS, and JavaScript**.
 
-## 🔗 Live Demo
-
-👉 **[View Live Website](YOUR_LIVE_LINK)**
+## 🔗 Live Demo =>  https://aritraghorai053.github.io/To-Do-List-Basic/
 
 ## 📸 Screenshot
 
