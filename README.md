@@ -6,7 +6,8 @@ A simple, modern and responsive **To-Do List Web Application** built using **HTM
 
 ## 📸 Screenshot
 
-![To-Do List Screenshot](./images/todo-screenshot.png)
+<img width="1916" height="892" alt="Screenshot 2026-08-09 224957" src="https://github.com/user-attachments/assets/f0525104-1ded-4bdb-ab5f-00b6c8e5f7e3" />
+
 
 ## ✨ Features
 
