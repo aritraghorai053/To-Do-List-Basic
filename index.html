@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="todo-app">
+      <div class="header">
+        <div>
+          <h2>To-Do List <img src="images/icon.png" alt="icon"></h2>
+          <p id="currentDate" class="date-subtitle"></p>
+        </div>
+        <div class="container-dark-mode">
+          <label class="theme-switch" aria-label="Toggle dark mode">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <section class="progress-card">
+        <div class="progress-info">
+          <span class="progress-title">Task Progress</span>
+          <span id="progressText" class="progress-percentage">0% Completed</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div id="progressBar" class="progress-bar-fill" style="width: 0%;"></div>
+        </div>
+      </section>
+
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add a new task">
+        <button onclick="addTask()">Add</button>
+      </div>
+
+      <div class="filters-container">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="active">Active</button>
+        <button class="filter-btn" data-filter="completed">Completed</button>
+      </div>
+
+      <main class="todo-list-section">
+        <ul id="taskList" class="todo-list">
+
+        </ul>
+
+        <div id="emptyState" class="empty-state hidden">
+          <i class="fa-solid fa-clipboard-check empty-icon"></i>
+          <p class="empty-text">No tasks found!</p>
+          <span class="empty-subtext">Add a task above to get started.</span>
+        </div>
+      </main>
+
+      <footer class="app-footer">
+        <span id="itemsLeftCount" class="items-left">0 tasks left</span>
+        <button id="clearCompletedBtn" class="clear-btn">
+          <i class="fa-solid fa-trash-can"></i> Clear Completed
+        </button>
+      </footer>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
